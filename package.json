@@ -1,7 +1,7 @@
 {
   "name": "create-nodesand",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Super Simple NodeJS Sandbox",
   "main": "index.js",
   "author": "Jooy2 <jootc.help@gmail.com>",
