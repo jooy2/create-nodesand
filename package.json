@@ -1,5 +1,6 @@
 {
   "name": "create-nodesand",
+  "type": "module",
   "version": "1.0.0",
   "description": "Super Simple NodeJS Sandbox",
   "main": "index.js",
@@ -7,6 +8,9 @@
   "license": "MIT",
   "bin": {
     "create-nodesand": "index.js"
+  },
+  "scripts": {
+    "test": "node index.js"
   },
   "keywords": [
     "node",
