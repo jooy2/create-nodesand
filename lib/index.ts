@@ -13,7 +13,7 @@ async function run(): Promise<void> {
 				spawn(
 					"git",
 					["clone", `https://github.com/${PKG_AUTHOR}/${PKG_NAME}`, PKG_NAME, "--depth", "1"],
-					{ stdio: "inherit" }
+					{ stdio: "inherit" },
 				)
 					.on("error", (err) => {
 						reject(err);
